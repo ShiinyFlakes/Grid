@@ -1,2 +1,2 @@
-# Test
-Just a test repo from another device
+# Grid template
+Grid Template
