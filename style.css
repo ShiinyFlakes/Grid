@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Bonheur Royale';
+    font-size: 1.5rem;
+    
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+}
+.fullwidth{
+    grid-column: 1/4;
+    text-align: center;
+}
+#kommentar{
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+img{
+    height: 200px;
+    width: 100%;
+    opacity: 70%;
+}
+form{
+    background-color: black; 
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+@media (max-width: 650px) {
+    .gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+}
+
+#bild{
+    height: 100px;
+}
+button{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 5px solid gray;
+    text-align: center;
+    margin-bottom: 5%;
+}
